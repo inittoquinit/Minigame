@@ -17,6 +17,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Anchor,
 		C3.Plugins.Timeline,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.System.Acts.ResetGlobals,
 		C3.Plugins.Sprite.Acts.AddChild,
 		C3.Plugins.System.Cnds.IsGroupActive,
@@ -78,7 +79,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.CompareX,
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.System.Acts.NextPrevLayout,
-		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Timeline.Acts.PlayTimeline
 	];
